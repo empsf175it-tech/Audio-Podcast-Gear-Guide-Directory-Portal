@@ -1,0 +1,1003 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SONORA — Audio Podcast Gear Guide & Directory</title>
+<meta name="description" content="A modern audio podcast gear guide and directory portal with 360° product views, audio comparisons, noise-cancellation guides and warranty registration.">
+<link rel="icon" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#080a0f;--bg2:#0e121b;--panel:#111722;--panel2:#151c29;--text:#f4f7fb;
+  --muted:#9ba7b9;--line:rgba(255,255,255,.09);--cyan:#54e7ff;--violet:#9b7cff;
+  --lime:#b8ff65;--pink:#ff6bb5;--orange:#ff9b5e;--max:1180px;
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:
+radial-gradient(circle at 15% 5%,rgba(84,231,255,.10),transparent 25%),
+radial-gradient(circle at 90% 18%,rgba(155,124,255,.12),transparent 27%),var(--bg);
+color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.55;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(to bottom,#000,transparent 85%);z-index:-1}
+a{color:inherit;text-decoration:none}img{display:block;width:100%;object-fit:cover}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+.nav{position:fixed;z-index:50;top:16px;left:50%;transform:translateX(-50%);width:min(1180px,calc(100% - 32px));display:flex;align-items:center;justify-content:space-between;gap:16px;padding:9px 12px 9px 16px;border:1px solid rgba(255,255,255,.09);border-top:1px solid rgba(84,231,255,.24);background:rgba(8,11,18,.8);backdrop-filter:blur(20px) saturate(160%);-webkit-backdrop-filter:blur(20px) saturate(160%);border-radius:22px;box-shadow:0 20px 48px rgba(0,0,0,.38),0 0 0 1px rgba(84,231,255,.05),inset 0 1px 0 rgba(255,255,255,.12)}
+.brand{flex:1;display:inline-flex;align-items:center;gap:11px;font-family:"Space Grotesk";font-weight:700;letter-spacing:.08em;color:#fff;font-size:17px;min-width:0}
+.brand svg{width:36px;height:36px;flex-shrink:0;transition:transform .3s ease,filter .3s ease}
+.brand:hover svg{transform:scale(1.06);filter:drop-shadow(0 0 12px rgba(84,231,255,.5))}
+.navlinks{display:flex;gap:3px;align-items:center;justify-content:center;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.07);border-radius:99px;padding:4px 5px}
+.navlinks a{padding:8px 15px;color:#a4b2c4;font-size:13px;font-weight:500;border-radius:99px;transition:color .25s,background .25s,box-shadow .25s,border-color .25s,transform .2s;white-space:nowrap;border:1px solid transparent}
+.navlinks a:hover{color:#fff;background:rgba(255,255,255,.09)}
+.navlinks a.active{color:#ffffff;background:linear-gradient(135deg,rgba(84,231,255,.2),rgba(155,124,255,.16));border-color:rgba(84,231,255,.45);font-weight:700;box-shadow:0 0 16px rgba(84,231,255,.25),inset 0 1px 0 rgba(255,255,255,.2)}
+.nav-actions{flex:1;display:flex;align-items:center;justify-content:flex-end;gap:10px}
+.navcta{display:inline-flex;align-items:center;gap:7px;padding:9px 17px!important;color:#050e14!important;background:linear-gradient(110deg,var(--cyan) 0%,#7ff4ff 100%)!important;border-radius:12px!important;font-family:"Space Grotesk";font-weight:800!important;font-size:13px!important;letter-spacing:.02em;box-shadow:0 4px 18px rgba(84,231,255,.28);transition:transform .25s ease,box-shadow .25s ease,filter .25s ease;white-space:nowrap}
+.navcta:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(84,231,255,.45);filter:brightness(1.04)}
+.navcta-arrow{display:inline-block;transition:transform .25s ease;font-size:14px}
+.navcta:hover .navcta-arrow{transform:translateX(3px)}
+.navcta-mobile{display:none!important}
+.menu{display:none;background:rgba(255,255,255,.06);border:1px solid var(--line);color:#fff;font-size:20px;width:38px;height:38px;border-radius:10px;cursor:pointer;place-items:center;transition:.25s}
+.menu:hover{background:rgba(255,255,255,.12);color:var(--cyan)}
+
+.hero{min-height:760px;display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:64px;padding-top:125px;position:relative}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--cyan);font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.dot{width:7px;height:7px;background:var(--lime);border-radius:50%;box-shadow:0 0 16px var(--lime)}
+h1,h2,h3{font-family:"Space Grotesk";line-height:1.02;margin:0;letter-spacing:-.045em}h1{font-size:clamp(34px,4.2vw,56px);max-width:580px;margin:18px 0}.grad{background:linear-gradient(100deg,#fff 10%,var(--cyan) 45%,var(--violet) 78%,#fff);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{font-size:17px;color:#b4bfce;max-width:540px;line-height:1.6}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 18px;border-radius:12px;border:1px solid var(--line);font-weight:800;font-size:13px;transition:.3s;overflow:hidden}.btn:before{content:"";position:absolute;inset:-2px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.35),transparent);transform:translateX(-120%);transition:.55s}.btn:hover:before{transform:translateX(120%)}.btn:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(0,0,0,.3)}.primary{background:linear-gradient(110deg,var(--cyan),#7ff4ff);color:#061017;border-color:transparent}.ghost{background:rgba(255,255,255,.04)}
+
+.hero-art{height:520px;position:relative;perspective:1000px}.hero-card{position:absolute;inset:20px 0 20px 30px;border:1px solid var(--line);border-radius:34px;overflow:hidden;transform:rotateY(-6deg) rotateX(3deg);box-shadow:25px 30px 75px rgba(0,0,0,.5)}.hero-card img{height:100%;filter:saturate(.92) contrast(1.06)}.hero-card:after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(5,10,16,.08),rgba(5,10,16,.65))}.orbit{position:absolute;inset:20px 0 0 0;pointer-events:none}.orbit i{position:absolute;border:1px solid rgba(84,231,255,.26);border-radius:50%;left:50%;top:50%;transform:translate(-50%,-50%) rotate(22deg);width:96%;height:42%;animation:orbit 9s linear infinite}.orbit i:nth-child(2){width:72%;height:62%;transform:translate(-50%,-50%) rotate(-35deg);animation-duration:12s;border-color:rgba(155,124,255,.28)}.orbit i:nth-child(3){width:55%;height:78%;transform:translate(-50%,-50%) rotate(62deg);animation-duration:15s;border-color:rgba(184,255,101,.24)}@keyframes orbit{to{transform:translate(-50%,-50%) rotate(382deg)}}
+
+.section{padding:105px 0;position:relative}.section.tight{padding-top:70px}.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:40px}.section-head h2{font-size:clamp(32px,5vw,58px);max-width:760px}.section-head p{max-width:420px;color:var(--muted);margin:0}.kicker{font-size:11px;color:var(--violet);font-weight:900;letter-spacing:.15em;text-transform:uppercase;margin-bottom:12px}
+.grid{display:grid;gap:16px}.grid3{grid-template-columns:repeat(3,1fr)}.grid4{grid-template-columns:repeat(4,1fr)}.card{background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018));border:1px solid var(--line);border-radius:22px;padding:24px;transition:.35s;position:relative;overflow:hidden}.card:after{content:"";position:absolute;width:130px;height:130px;border-radius:50%;background:var(--cyan);filter:blur(65px);opacity:.06;right:-50px;bottom:-60px}.card:hover{transform:translateY(-7px);border-color:rgba(84,231,255,.32);box-shadow:0 22px 50px rgba(0,0,0,.22)}.icon{width:44px;height:44px;border-radius:13px;display:grid;place-items:center;background:rgba(84,231,255,.1);color:var(--cyan);font-weight:900;margin-bottom:22px}.card h3{font-size:22px;margin-bottom:9px}.card p{color:var(--muted);margin:0}.grid4 .card{display:flex;flex-direction:column;align-items:center;text-align:center;padding:28px 22px}.grid4 .card .icon{margin:0 auto 18px}.grid4 .card h3{text-align:center;font-size:21px;margin-bottom:10px;width:100%}.grid4 .card p{text-align:center;color:var(--muted);margin:0;font-size:14px;line-height:1.55}.tag{display:inline-block;margin-top:18px;font-size:11px;color:var(--lime);letter-spacing:.08em;text-transform:uppercase;font-weight:800}
+
+.marquee{border-block:1px solid rgba(255,255,255,.08);overflow:hidden;padding:16px 0;background:rgba(255,255,255,.02);position:relative;display:flex;user-select:none;mask-image:linear-gradient(90deg,transparent 0%,#000 6%,#000 94%,transparent 100%);-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 6%,#000 94%,transparent 100%)}
+.marquee-track{display:flex;width:max-content;will-change:transform}
+.marquee-group{display:flex;align-items:center;gap:42px;padding-right:42px;flex-shrink:0}
+.marquee-group span{font-family:"Space Grotesk",sans-serif;font-size:13px;font-weight:700;letter-spacing:.13em;color:#98a7b9;white-space:nowrap;display:inline-flex;align-items:center;gap:12px;transition:color .25s ease;cursor:default}
+.marquee-group span i{display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--cyan);box-shadow:0 0 10px var(--cyan)}
+.marquee-group span:hover{color:#ffffff}
+
+.visual{border-radius:28px;border:1px solid var(--line);overflow:hidden;position:relative;min-height:500px;background:#0c1118}.visual img{height:100%;position:absolute;inset:0}.visual:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,8,12,.8),rgba(5,8,12,.12) 70%)}.visual-copy{position:absolute;z-index:2;left:32px;bottom:32px;max-width:440px}.visual-copy h3{font-size:36px;margin-bottom:10px}.visual-copy p{color:#c3ccd8}
+
+.wavebox{min-height:480px;border:1px solid var(--line);border-radius:30px;background:linear-gradient(145deg,#0e151f,#080b10);display:grid;place-items:center;overflow:hidden;position:relative}.wavebox:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,rgba(84,231,255,.12),transparent 38%)}.wave{height:190px;width:88%;display:flex;align-items:center;justify-content:center;gap:7px;position:relative;z-index:1}.wave i{display:block;width:5px;border-radius:10px;background:linear-gradient(var(--cyan),var(--violet));animation:pulse 1.2s ease-in-out infinite}.wave i:nth-child(3n){animation-delay:.2s}.wave i:nth-child(4n){animation-delay:.4s}.wave i:nth-child(5n){animation-delay:.1s}@keyframes pulse{0%,100%{height:18px;opacity:.35}50%{height:140px;opacity:1}}.wave-label{position:absolute;top:24px;left:28px;color:#8491a4;font-size:11px;letter-spacing:.13em;text-transform:uppercase}.wave-meta{position:absolute;bottom:25px;left:28px;right:28px;display:flex;justify-content:space-between;color:#718095;font-size:12px}
+
+.product3d{min-height:540px;border:1px solid var(--line);border-radius:30px;background:#090e15;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;padding:30px;box-shadow:0 25px 60px rgba(0,0,0,.35)}
+.product3d-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s cubic-bezier(.2,.8,.2,1),filter .6s ease;filter:brightness(.95) contrast(1.04)}
+.product3d:hover .product3d-img{transform:scale(1.03);filter:brightness(1.02) contrast(1.06)}
+.product3d:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 38%,transparent 42%,rgba(7,10,16,.75) 90%),linear-gradient(180deg,transparent 45%,rgba(7,10,16,.92) 100%);pointer-events:none}
+.specs{position:relative;z-index:3;display:grid;grid-template-columns:repeat(4,1fr);gap:14px;width:100%}
+.spec{padding:16px 18px;border:1px solid rgba(84,231,255,.24);background:rgba(9,14,22,.84);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-radius:16px;text-align:center;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease;box-shadow:0 10px 25px rgba(0,0,0,.45)}
+.spec:hover{transform:translateY(-3px);border-color:rgba(84,231,255,.55);box-shadow:0 14px 30px rgba(0,0,0,.5),0 0 20px rgba(84,231,255,.2)}
+.spec b{display:block;font-family:"Space Grotesk",sans-serif;font-size:18px;color:#fff;margin-bottom:3px}
+.spec span{font-size:12px;color:var(--cyan);font-weight:600;letter-spacing:.02em}
+@media(max-width:900px){.specs{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:540px){.specs{grid-template-columns:1fr}}
+
+.compare{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);border-radius:24px;overflow:hidden}.compare .col{padding:26px}.compare .col:first-child{border-right:1px solid var(--line)}.compare h3{font-size:27px;margin-bottom:18px}.bar{margin:14px 0}.bar label{display:flex;justify-content:space-between;font-size:12px;color:#aab5c4}.bar em{height:8px;display:block;margin-top:7px;background:#202937;border-radius:20px;overflow:hidden}.bar em i{display:block;height:100%;width:var(--w);background:linear-gradient(90deg,var(--cyan),var(--violet));border-radius:inherit;animation:load 1.5s both}@keyframes load{from{width:0}}
+
+.cards-img{padding:0;overflow:hidden}
+.cards-img img{height:220px;width:100%;object-fit:cover;display:block;transition:transform .5s cubic-bezier(.2,.8,.2,1),filter .5s ease;filter:brightness(.92) contrast(1.05)}
+.cards-img:hover img{transform:scale(1.06);filter:brightness(1) contrast(1.08)}
+.cards-img .inner{padding:24px;display:flex;flex-direction:column;align-items:center;text-align:center}
+.cards-img .tag{margin-top:0;margin-bottom:12px;display:inline-flex}
+.cards-img h3{font-size:22px;margin:0 0 8px;text-align:center}
+.cards-img .stars{color:#ffd86a;letter-spacing:2px;font-size:12px;margin-bottom:6px;text-align:center}
+.cards-img .price{font-family:"Space Grotesk";font-size:25px;margin:4px 0 10px;text-align:center}
+.cards-img p{color:var(--muted);margin:0;text-align:center;font-size:14px;line-height:1.55}
+
+.ticker3d{height:390px;border-radius:28px;border:1px solid var(--line);background:linear-gradient(130deg,#101622,#090c12);position:relative;overflow:hidden;display:grid;place-items:center;perspective:1000px}.cube{width:180px;height:180px;position:relative;transform-style:preserve-3d;animation:cube 13s linear infinite}.face{position:absolute;inset:0;border:1px solid rgba(84,231,255,.35);background:rgba(84,231,255,.035);display:grid;place-items:center;font-family:"Space Grotesk";font-size:22px;color:var(--cyan);backdrop-filter:blur(5px)}.f1{transform:translateZ(90px)}.f2{transform:rotateY(180deg) translateZ(90px)}.f3{transform:rotateY(90deg) translateZ(90px)}.f4{transform:rotateY(-90deg) translateZ(90px)}.f5{transform:rotateX(90deg) translateZ(90px)}.f6{transform:rotateX(-90deg) translateZ(90px)}@keyframes cube{to{transform:rotateX(360deg) rotateY(360deg) rotateZ(90deg)}}
+
+.faq{max-width:800px;margin:0 auto;text-align:left}
+.faq details{border-bottom:1px solid var(--line);padding:22px 0;transition:border-color .25s ease}
+.faq details[open]{border-bottom-color:rgba(84,231,255,.35)}
+.faq summary::-webkit-details-marker,.faq summary::marker{display:none!important;content:""!important}
+.faq summary{list-style:none!important;cursor:pointer;font-family:"Space Grotesk",sans-serif;font-size:18px;font-weight:700;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:16px;text-align:left;user-select:none;transition:color .2s ease}
+.faq summary:hover{color:var(--cyan)}
+.faq summary::after{content:"";display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;background:rgba(84,231,255,.08);border:1px solid rgba(84,231,255,.24);flex-shrink:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2354e7ff' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");background-repeat:no-repeat;background-position:center;transition:transform .3s cubic-bezier(0.16,1,0.3,1),background-color .25s ease,border-color .25s ease}
+.faq details[open] summary::after{transform:rotate(180deg);background-color:rgba(84,231,255,.22);border-color:var(--cyan)}
+.faq p{color:var(--muted);font-size:15px;line-height:1.65;margin:14px 0 4px;max-width:740px;text-align:left}
+/* =========================================================
+   PROPER PORTAL FOOTER MODEL (SONORA DIRECTORY & LAB)
+========================================================= */
+.footer{position:relative;overflow:hidden;padding:85px 0 35px;background:radial-gradient(circle at 50% 0%,rgba(84,231,255,.07) 0%,transparent 45%),radial-gradient(circle at 85% 20%,rgba(155,124,255,.06) 0%,transparent 40%),#070a10;border-top:1px solid rgba(84,231,255,.2)}
+.footer:before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--cyan) 25%,var(--violet) 50%,var(--lime) 75%,transparent);opacity:.85}
+.footer-ambient-glow{position:absolute;top:-120px;left:50%;transform:translateX(-50%);width:600px;height:240px;background:radial-gradient(ellipse at center,rgba(84,231,255,.14),transparent 70%);pointer-events:none;filter:blur(50px)}
+
+/* 1. Newsletter / Studio Dispatch Card */
+.footer-cta-card{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:center;padding:38px 42px;border-radius:24px;background:linear-gradient(135deg,rgba(17,23,34,.9),rgba(11,15,23,.95));border:1px solid rgba(84,231,255,.24);box-shadow:0 25px 60px -15px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.12);margin-bottom:48px;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.footer-cta-card:after{content:"";position:absolute;top:0;right:15%;width:140px;height:100%;background:radial-gradient(ellipse at top,rgba(155,124,255,.15),transparent 70%);pointer-events:none}
+.footer-cta-badge{display:inline-flex;align-items:center;gap:8px;padding:5px 12px;border-radius:99px;background:rgba(84,231,255,.08);border:1px solid rgba(84,231,255,.3);font-family:"Space Grotesk",sans-serif;font-size:11px;font-weight:800;letter-spacing:.12em;color:var(--cyan);text-transform:uppercase;margin-bottom:12px}
+.live-pulse{width:6px;height:6px;border-radius:50%;background:var(--lime);box-shadow:0 0 10px var(--lime);animation:pulseDot 1.8s infinite}
+@keyframes pulseDot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.35);opacity:.5}}
+.footer-cta-title{font-family:"Space Grotesk",sans-serif;font-size:clamp(20px,2.2vw,26px);font-weight:700;line-height:1.25;color:#fff;margin:0 0 8px;letter-spacing:-.02em}
+.footer-cta-sub{color:var(--muted);font-size:13.5px;line-height:1.55;margin:0}
+.footer-cta-form{position:relative;z-index:2}
+.footer-input-wrap{position:relative;display:flex;align-items:center;gap:8px;background:rgba(7,10,16,.9);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:6px 6px 6px 16px;transition:border-color .25s,box-shadow .25s}
+.footer-input-wrap:focus-within{border-color:rgba(84,231,255,.6);box-shadow:0 0 20px rgba(84,231,255,.2)}
+.footer-mail-icon{width:18px;height:18px;color:#6c7c93;flex-shrink:0}
+.footer-input-wrap input{flex:1;background:transparent;border:none;outline:none;color:#fff;font-size:13.5px;font-family:"DM Sans",sans-serif;min-width:0}
+.footer-input-wrap input::placeholder{color:#5d6d84}
+.footer-submit-btn{display:inline-flex;align-items:center;gap:7px;padding:11px 20px;background:linear-gradient(110deg,var(--cyan),#7ff4ff);color:#061017;font-family:"Space Grotesk",sans-serif;font-weight:800;font-size:13px;border-radius:11px;border:none;cursor:pointer;transition:transform .2s,box-shadow .2s,filter .2s;white-space:nowrap;flex-shrink:0}
+.footer-submit-btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(84,231,255,.4);filter:brightness(1.05)}
+.footer-submit-btn svg{width:15px;height:15px;transition:transform .2s ease}
+.footer-submit-btn:hover svg{transform:translateX(3px)}
+.footer-form-note{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:10px;font-size:11.5px;color:#728299}
+.footer-form-note .note-check{color:#8c9eb5}
+.footer-form-note .note-sep{opacity:.4}
+.footer-success-msg{display:none;align-items:center;gap:8px;margin-top:10px;padding:10px 14px;border-radius:10px;background:rgba(184,255,101,.1);border:1px solid rgba(184,255,101,.3);color:var(--lime);font-size:12px;font-weight:600}
+.footer-success-msg svg{width:16px;height:16px;flex-shrink:0}
+
+/* 2. Value Pillars Strip */
+.footer-pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:48px}
+.pillar-item{display:flex;align-items:flex-start;gap:14px;padding:18px 20px;border-radius:16px;background:rgba(255,255,255,.022);border:1px solid rgba(255,255,255,.06);transition:transform .3s ease,border-color .3s ease,background .3s ease,box-shadow .3s ease}
+.pillar-item:hover{background:rgba(255,255,255,.04);border-color:rgba(84,231,255,.3);transform:translateY(-3px);box-shadow:0 10px 25px rgba(0,0,0,.35)}
+.pillar-icon{width:40px;height:40px;border-radius:12px;background:rgba(84,231,255,.08);border:1px solid rgba(84,231,255,.22);display:grid;place-items:center;color:var(--cyan);flex-shrink:0}
+.pillar-icon svg{width:20px;height:20px}
+.pillar-item h4{font-family:"Space Grotesk",sans-serif;font-size:14px;font-weight:700;color:#fff;margin:0 0 3px}
+.pillar-item p{font-size:12px;color:var(--muted);margin:0;line-height:1.45}
+
+/* 3. Multi-Column Sitemap Grid */
+.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr 1fr;gap:36px;margin-bottom:48px}
+.footer-col-brand .brand{margin-bottom:14px}
+.footer-col-brand .brand-desc{font-size:13.5px;line-height:1.6;color:#8c9cb0;margin:0 0 16px;max-width:320px}
+.footer-status-badge{display:inline-flex;align-items:center;gap:8px;padding:6px 13px;border-radius:99px;background:rgba(184,255,101,.06);border:1px solid rgba(184,255,101,.22);font-size:11.5px;color:#bbf784;font-weight:600;margin-bottom:20px}
+.status-indicator{width:7px;height:7px;border-radius:50%;background:var(--lime);box-shadow:0 0 8px var(--lime);animation:pulseDot 2s infinite}
+.footer-social-label{display:block;font-family:"Space Grotesk",sans-serif;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#707f94;margin-bottom:10px}
+.footer-socials{display:flex;gap:8px}
+.social-btn{width:38px;height:38px;border-radius:11px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.08);display:grid;place-items:center;color:#a4b3c7;transition:transform .25s ease,background .25s ease,color .25s ease,border-color .25s ease,box-shadow .25s ease}
+.social-btn svg{width:17px;height:17px}
+.social-btn:hover{background:linear-gradient(135deg,rgba(84,231,255,.2),rgba(155,124,255,.2));color:#fff;border-color:rgba(84,231,255,.45);transform:translateY(-3px);box-shadow:0 8px 18px rgba(0,0,0,.35),0 0 12px rgba(84,231,255,.25)}
+
+.footer-col-title{font-family:"Space Grotesk",sans-serif;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#fff;margin:0 0 18px;display:flex;align-items:center;gap:8px}
+.footer-col-title:before{content:"";display:inline-block;width:6px;height:6px;border-radius:2px;background:var(--cyan)}
+.footer-links{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px}
+.footer-links li a{color:#8c9cb0;font-size:13.5px;text-decoration:none;transition:color .2s,transform .2s;display:inline-flex;align-items:center;gap:7px}
+.footer-links li a:hover{color:#fff;transform:translateX(4px)}
+.badge-mini{font-size:9.5px;font-weight:800;padding:2px 7px;border-radius:6px;letter-spacing:.06em;text-transform:uppercase;font-family:"Space Grotesk",sans-serif;line-height:1.2}
+.badge-lime{background:rgba(184,255,101,.1);color:var(--lime);border:1px solid rgba(184,255,101,.25)}
+.badge-cyan{background:rgba(84,231,255,.1);color:var(--cyan);border:1px solid rgba(84,231,255,.25)}
+.badge-accent{background:rgba(155,124,255,.12);color:#d1c4ff;border:1px solid rgba(155,124,255,.25)}
+
+/* 4. Bottom Colophon Bar */
+.footer-bottom-bar{padding-top:28px;border-top:1px solid rgba(255,255,255,.08);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:18px;color:#6e7d91;font-size:12px;padding-right:80px}
+.footer-bottom-left{display:flex;flex-direction:column;gap:4px}
+.footer-bottom-left .copyright{font-weight:600;color:#8a9bb0}
+.footer-bottom-left .mission-tagline{color:#627286;font-size:11.5px}
+.footer-bottom-center{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.footer-bottom-center a{color:#7f90a5;text-decoration:none;transition:color .2s}
+.footer-bottom-center a:hover{color:#fff}
+.foot-sep{opacity:.35}
+.footer-bottom-right{display:flex;align-items:center;gap:14px}
+.footer-locale-pill{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:8px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.08);font-size:11.5px;color:#94a3b8;white-space:nowrap}
+
+.scroll-top{position:fixed;bottom:28px;right:28px;z-index:45;width:44px;height:44px;border-radius:14px;background:rgba(12,18,28,.82);border:1px solid rgba(84,231,255,.32);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);color:var(--cyan);display:grid;place-items:center;cursor:pointer;box-shadow:0 12px 28px rgba(0,0,0,.45),0 0 16px rgba(84,231,255,.18);opacity:0;pointer-events:none;transform:translateY(16px);transition:opacity .3s cubic-bezier(.2,.8,.2,1),transform .3s cubic-bezier(.2,.8,.2,1),background .25s ease,color .25s ease,border-color .25s ease,box-shadow .25s ease}
+.scroll-top svg{width:20px;height:20px;transition:transform .25s ease}
+.scroll-top:hover{background:linear-gradient(135deg,var(--cyan),#7ff4ff);color:#061017;border-color:transparent;transform:translateY(-4px);box-shadow:0 16px 35px rgba(0,0,0,.5),0 0 25px rgba(84,231,255,.5)}
+.scroll-top:hover svg{transform:translateY(-2px)}
+.scroll-top.visible{opacity:1;pointer-events:auto;transform:translateY(0)}
+@media(max-width:1100px){.footer-grid{grid-template-columns:1fr 1fr 1fr;gap:30px}.footer-col-brand{grid-column:span 3;display:grid;grid-template-columns:1.2fr 1fr;gap:24px}.footer-pillars{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:900px){.brand{flex:1}.nav-actions{flex:0 0 auto;display:flex;align-items:center;justify-content:flex-end}.navlinks{display:none}.navcta-desktop{display:none!important}.menu{display:grid}.nav.open .navlinks{display:flex;position:absolute;top:calc(100% + 10px);left:0;right:0;background:rgba(12,18,28,.96);backdrop-filter:blur(22px);border:1px solid rgba(84,231,255,.2);padding:16px 14px 18px;border-radius:20px;flex-direction:column;gap:8px;box-shadow:0 24px 55px rgba(0,0,0,.6);z-index:99}.nav.open .navlinks a{width:100%;border-radius:11px;padding:11px 14px;font-size:14px;text-align:center;box-sizing:border-box}.nav.open .navlinks a.active:not(.navcta-mobile){background:linear-gradient(135deg,rgba(84,231,255,.24),rgba(155,124,255,.18));border-color:rgba(84,231,255,.45);color:#fff}.nav.open .navlinks .navcta-mobile{display:inline-flex!important;justify-content:center!important;align-items:center!important;width:100%!important;text-align:center!important;margin-top:6px!important;padding:12px 18px!important;font-size:14px!important;border-radius:12px!important;background:linear-gradient(110deg,var(--cyan) 0%,#7ff4ff 100%)!important;color:#050e14!important;box-shadow:0 4px 18px rgba(84,231,255,.35)!important;box-sizing:border-box!important}.grid3,.grid4{grid-template-columns:1fr 1fr}}
+@media(max-width:768px){.footer{padding:60px 0 30px}.footer-cta-card{grid-template-columns:1fr;padding:28px 22px;gap:22px}.footer-input-wrap{flex-direction:column;padding:10px}.footer-input-wrap input{width:100%;padding:6px 0}.footer-submit-btn{width:100%;justify-content:center}.footer-grid{grid-template-columns:1fr 1fr;gap:28px}.footer-col-brand{grid-column:span 2;display:block}.footer-bottom-bar{padding-right:0;flex-direction:column;align-items:flex-start;gap:16px}}
+@media(max-width:620px){.wrap{width:min(100% - 26px,var(--max))}.nav{top:10px;padding:8px 10px 8px 14px}.navcta{padding:8px 12px!important;font-size:12px!important}.hero h1{font-size:50px}.hero-art{height:380px}.hero-card{inset:15px 4px 10px 12px}.section{padding:75px 0}.grid3,.grid4,.compare{grid-template-columns:1fr}.compare .col:first-child{border-right:0;border-bottom:1px solid var(--line)}.visual{min-height:390px}.product3d{height:430px}.wavebox{min-height:390px}.ticker3d{height:300px}}
+@media(max-width:480px){.footer-pillars{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.footer-col-brand{grid-column:span 1}}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1!important;transform:none!important}}
+
+/* Refinement: richer first four sections + contact/map + fixed two-line hero */
+.hero h1{font-size:clamp(44px,6.4vw,84px);max-width:760px;white-space:nowrap}
+.gear-showcase{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.gear-card{display:flex;flex-direction:column;height:100%;border:1px solid var(--line);border-radius:24px;background:linear-gradient(145deg,rgba(255,255,255,.075),rgba(255,255,255,.018));overflow:hidden;position:relative;transition:transform .35s cubic-bezier(.2,.8,.2,1),border-color .35s ease,box-shadow .35s ease;box-shadow:0 18px 45px rgba(0,0,0,.2)}
+.gear-card:hover{transform:translateY(-8px);border-color:rgba(84,231,255,.45);box-shadow:0 26px 60px rgba(0,0,0,.4),0 0 25px rgba(84,231,255,.12)}
+.gear-art{height:230px;flex-shrink:0;position:relative;overflow:hidden;background:#0d131c}
+.gear-art img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s cubic-bezier(.2,.8,.2,1),filter .5s ease;filter:brightness(.92) contrast(1.05)}
+.gear-card:hover .gear-art img{transform:scale(1.06);filter:brightness(1) contrast(1.08)}
+.gear-art:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,12,18,0) 45%,rgba(8,12,18,.85) 100%);pointer-events:none}
+.gear-copy{padding:26px 24px 28px;display:flex;flex-direction:column;align-items:center;text-align:center;flex:1;width:100%}
+.gear-copy .icon{margin:0 auto 16px;width:46px;height:46px;border-radius:14px;display:grid;place-items:center;background:rgba(84,231,255,.1);color:var(--cyan);font-weight:900;flex-shrink:0}
+.gear-copy h3{font-size:23px;margin:0 0 10px;text-align:center;width:100%;min-height:52px;display:flex;align-items:center;justify-content:center}
+.gear-copy p{min-height:68px;text-align:center;color:var(--muted);font-size:14px;line-height:1.55;margin:0 auto 18px;max-width:320px}
+.meter{width:100%;height:5px;background:#242d39;border-radius:99px;overflow:hidden;margin:auto 0 7px;flex-shrink:0}
+.meter i{display:block;height:100%;width:var(--w);background:linear-gradient(90deg,var(--cyan),#7ff4ff);border-radius:inherit;animation:load 1.5s both}
+.meter.violet i{background:linear-gradient(90deg,var(--violet),#d3c7ff)}
+.meter.lime i{background:linear-gradient(90deg,var(--lime),#e1ffb8)}
+.micro-meta{width:100%;display:flex;justify-content:space-between;font-size:11px;color:#768397;margin-bottom:18px;flex-shrink:0}
+.micro-meta b{color:#dce4ee}
+.gear-copy .tag{display:inline-flex;align-items:center;justify-content:center;gap:6px;text-align:center;width:100%;padding:11px 20px;border-radius:12px;background:rgba(184,255,101,.08);border:1px solid rgba(184,255,101,.25);color:var(--lime);font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;transition:all .25s ease;cursor:pointer;text-decoration:none;margin-top:0;flex-shrink:0}
+.gear-copy .tag:hover{background:rgba(184,255,101,.2);border-color:rgba(184,255,101,.55);transform:translateY(-2px);box-shadow:0 6px 20px rgba(184,255,101,.18);color:#ffffff}
+.studio-visual{min-height:530px}.scanline{position:absolute;z-index:2;top:0;bottom:0;width:2px;background:linear-gradient(transparent,var(--cyan),transparent);box-shadow:0 0 24px var(--cyan);animation:scan 5s ease-in-out infinite}.visual-orbit{position:absolute;z-index:2;right:13%;top:24%;width:300px;height:200px}.visual-orbit i{position:absolute;inset:0;border:1px solid rgba(84,231,255,.25);border-radius:50%;transform:rotate(25deg);animation:gearOrbit 8s linear infinite}.visual-orbit i+i{transform:rotate(-45deg);border-color:rgba(184,255,101,.2);animation-duration:11s}@keyframes scan{0%,100%{left:8%}50%{left:92%}}
+.mini-pills{display:flex;flex-wrap:wrap;gap:7px;margin-top:17px}.mini-pills span{font-size:9px;font-weight:800;letter-spacing:.1em;border:1px solid rgba(255,255,255,.13);border-radius:99px;padding:7px 9px;color:#b8c3d2;background:rgba(255,255,255,.04)}
+.wavebox{isolation:isolate}.signal-ring{position:absolute;width:330px;height:330px;border:1px solid rgba(84,231,255,.14);border-radius:50%;animation:pulseRing 3.5s ease-out infinite}.signal-dot{position:absolute;width:9px;height:9px;background:var(--lime);border-radius:50%;box-shadow:0 0 20px var(--lime);animation:signalMove 4s linear infinite}@keyframes pulseRing{0%{transform:scale(.75);opacity:.1}60%{transform:scale(1.08);opacity:.55}100%{transform:scale(1.18);opacity:0}}@keyframes signalMove{0%{transform:translate(-210px,0)}25%{transform:translate(0,-120px)}50%{transform:translate(210px,0)}75%{transform:translate(0,120px)}100%{transform:translate(-210px,0)}}
+.contact-strip{display:grid;grid-template-columns:.85fr 1.15fr;gap:18px;margin-top:22px}.contact-info,.map-wrap{border:1px solid var(--line);border-radius:24px;background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018));padding:25px}.contact-item{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-bottom:1px solid var(--line)}.contact-icon{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;background:rgba(84,231,255,.09);color:var(--cyan);font-weight:800}.contact-item b{display:block;font-family:"Space Grotesk";font-size:13px}.contact-item a,.contact-item span{color:#9ba7b9;font-size:13px}.social-row{display:flex;gap:9px;margin-top:20px}.social-row a{width:40px;height:40px;border:1px solid var(--line);border-radius:11px;display:grid;place-items:center;color:#cbd4df;font-family:"Space Grotesk";font-weight:800;transition:.25s}.social-row a:hover{background:var(--cyan);color:#061017;transform:translateY(-3px)}.map-wrap{position:relative;padding:0;min-height:330px;overflow:hidden}.map-wrap iframe{width:100%;height:100%;min-height:330px;border:0;filter:saturate(.7) contrast(1.05) brightness(.72)}.map-label{position:absolute;z-index:2;top:14px;left:14px;padding:8px 10px;border-radius:8px;background:rgba(8,10,15,.82);border:1px solid rgba(255,255,255,.14);font:800 9px "Space Grotesk";letter-spacing:.12em;color:var(--cyan)}
+.contact-card{max-width:720px;margin:0 auto;padding:36px}
+.contact-form{width:100%;display:flex;flex-direction:column;align-items:stretch}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;width:100%;margin-bottom:14px}
+.contact-input{width:100%;box-sizing:border-box;padding:15px 18px;border-radius:14px;border:1px solid var(--line);background:#0b1018;color:#fff;font-family:"DM Sans",sans-serif;font-size:14.5px;transition:border-color .25s ease,box-shadow .25s ease,background .25s ease;outline:none;text-align:left}
+.contact-input::placeholder{color:#6c7d95}
+.contact-input:focus{border-color:rgba(84,231,255,.6);box-shadow:0 0 20px rgba(84,231,255,.18);background:#0e1520}
+.contact-textarea{min-height:130px;resize:vertical;line-height:1.6;margin-bottom:6px}
+.contact-submit{margin-top:14px;border:0;cursor:pointer;align-self:center;min-width:180px}
+@media(max-width:900px){.hero h1{white-space:normal}.gear-showcase{grid-template-columns:1fr 1fr}.contact-strip{grid-template-columns:1fr}}
+@media(max-width:620px){.gear-showcase{grid-template-columns:1fr}.gear-art{height:210px}.hero h1{font-size:46px;line-height:1.02}.studio-visual{min-height:470px}}
+
+/* Final alignment */
+.hero{grid-template-columns:minmax(0,1.08fr) minmax(320px,.92fr);gap:60px;overflow:visible}
+.hero>div:first-child{min-width:0;position:relative;z-index:5}
+.hero-title{font-size:clamp(34px,4.2vw,56px);line-height:1.08;letter-spacing:-.04em;width:100%;max-width:580px;margin:16px 0 20px;font-weight:700}
+.hero-title>span{display:block;width:100%}
+.hero-art{min-width:0;z-index:1}
+.hero-card{inset:20px 0 20px 30px}
+.section-head{align-items:center}
+.section-head>div{min-width:0}
+.section-head h2{line-height:1.02}
+.section-head p{padding-bottom:2px}
+.directory-card{min-height:285px;display:flex;flex-direction:column;padding:24px}
+.dir-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:17px}
+.dir-top .icon{margin:0}
+.dir-index{font:800 10px "Space Grotesk";letter-spacing:.13em;color:#657287}
+.dir-copy{flex:1}
+.dir-copy h3{font-size:22px;margin:0 0 9px;line-height:1.1}
+.dir-copy p{margin:0;max-width:330px;color:var(--muted);line-height:1.55}
+.dir-link{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:22px;padding-top:16px;border-top:1px solid var(--line);font-size:11px;line-height:1;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--lime);transition:.25s}
+.dir-link span{font-size:16px;transition:.25s}
+.dir-link:hover{color:#e5ffbf}
+.dir-link:hover span{transform:translate(3px,-3px)}
+.directory-card:before{content:"";position:absolute;left:0;top:0;width:100%;height:2px;background:linear-gradient(90deg,transparent,var(--cyan),var(--violet),transparent);transform:scaleX(.25);transform-origin:center;transition:.4s}
+.directory-card:hover:before{transform:scaleX(1)}
+.directory-card:hover .dir-index{color:var(--cyan)}
+@media(max-width:1100px){
+  .hero{grid-template-columns:minmax(0,1.05fr) minmax(280px,.95fr);gap:40px}
+  .hero-title{font-size:clamp(32px,3.8vw,48px);max-width:500px}
+}
+
+/* =========================================================
+   TABLET & MOBILE VIEWS: CENTER HEADINGS, TEXT & BUTTONS
+========================================================= */
+@media(max-width:900px){
+  /* Hero Section Alignment */
+  .hero{grid-template-columns:1fr;padding-top:125px;gap:36px;text-align:center}
+  .hero>div:first-child{display:flex;flex-direction:column;align-items:center;text-align:center;margin:0 auto;width:100%}
+  .eyebrow{margin:0 auto 12px;justify-content:center;display:inline-flex;align-items:center}
+  .hero-title,.hero h1{text-align:center;margin-left:auto;margin-right:auto;width:100%;max-width:680px;white-space:normal}
+  .hero-title>span{display:block;width:100%;text-align:center}
+  .lead{text-align:center;margin-left:auto;margin-right:auto;max-width:560px}
+  .actions{display:flex;justify-content:center;align-items:center;width:100%;margin:26px auto 0;gap:12px;flex-wrap:wrap}
+  .actions .btn{justify-content:center}
+  .hero-art{height:440px;margin-top:10px}
+  .hero-card{inset:10px 0 10px 0}
+
+  /* Section Headers */
+  .section-head{display:flex!important;flex-direction:column!important;align-items:center!important;text-align:center!important;width:100%!important;margin:0 auto 36px!important}
+  .section-head>div{display:flex;flex-direction:column;align-items:center;text-align:center;width:100%}
+  .section-head .kicker,.kicker{text-align:center;margin-left:auto;margin-right:auto;display:block}
+  .section-head h2{text-align:center;margin-left:auto;margin-right:auto;max-width:680px;width:100%}
+  .section-head p{text-align:center;margin:14px auto 0;max-width:580px;width:100%}
+
+  /* Visual Banner Overlays (Studio Visual, Noise Lab, Warranty) */
+  .visual{display:flex;align-items:flex-end;justify-content:center}
+  .visual:after{background:linear-gradient(180deg,rgba(5,8,12,.15) 0%,rgba(5,8,12,.82) 55%,rgba(5,8,12,.95) 100%)}
+  .visual-copy{position:relative;left:auto;right:auto;bottom:auto;padding:36px 24px 30px;width:100%;max-width:620px;margin:0 auto;display:flex;flex-direction:column;align-items:center;text-align:center;z-index:3}
+  .visual-copy .kicker{text-align:center;margin:0 auto 10px}
+  .visual-copy h3{text-align:center;margin:0 auto 12px;width:100%}
+  .visual-copy p{text-align:center;margin:0 auto 16px;width:100%;max-width:520px}
+  .visual-copy .mini-pills{justify-content:center;margin-top:14px}
+  .visual-copy .btn{margin:14px auto 0;align-self:center;display:inline-flex;justify-content:center}
+
+  /* Spec Comparison */
+  .compare .col{text-align:center}
+  .compare h3{text-align:center}
+
+  /* Tab View: Center last card in odd 2-column card grids */
+  .gear-showcase > .gear-card:last-child:nth-child(odd),
+  .gear-showcase > :last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin-inline: auto;
+    width: 100%;
+    max-width: calc((100% - 20px) / 2);
+  }
+  .grid3 > .card:last-child:nth-child(odd),
+  .grid3 > :last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin-inline: auto;
+    width: 100%;
+    max-width: calc((100% - 16px) / 2);
+  }
+
+  /* Directory Cards */
+  .directory-card{align-items:center;text-align:center}
+  .dir-top{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;width:100%;margin-bottom:16px}
+  .dir-top .dir-index{font:800 11px "Space Grotesk",sans-serif;letter-spacing:.15em;color:#7a8a9e;text-align:center}
+  .dir-top .icon{margin:0 auto}
+  .dir-copy{display:flex;flex-direction:column;align-items:center;text-align:center;width:100%}
+  .dir-copy h3{text-align:center;width:100%}
+  .dir-copy p{text-align:center;margin:0 auto;width:100%}
+  .dir-link{justify-content:center;width:100%;text-align:center}
+
+  /* FAQ Alignment for Mobile & Tablet */
+  .faq{width:100%;max-width:100%;margin:0 auto;text-align:left}
+  .faq details{padding:18px 0}
+  .faq details summary{display:flex;align-items:center;justify-content:space-between;gap:14px;text-align:left;font-size:16px;line-height:1.45}
+  .faq details summary::after{width:28px;height:28px}
+  .faq details p{text-align:left;margin:12px 0 4px;font-size:14px;line-height:1.6}
+
+  /* Contact Form & Strip */
+  #contact .card{display:flex;flex-direction:column;align-items:center;text-align:center}
+  .contact-card{padding:26px 20px;width:100%;max-width:580px;margin:0 auto}
+  .contact-form{width:100%;max-width:100%;display:flex;flex-direction:column;align-items:stretch}
+  .contact-grid{display:grid;grid-template-columns:1fr!important;gap:12px;margin-bottom:12px;width:100%}
+  .contact-input{font-size:14px;padding:14px 16px;width:100%;text-align:left}
+  .contact-submit,#contact form .btn{margin:16px auto 0!important;align-self:center!important;display:inline-flex!important;justify-content:center!important;text-align:center!important}
+  .contact-info{display:flex;flex-direction:column;align-items:center;text-align:center}
+  .contact-item{flex-direction:column;align-items:center;text-align:center;width:100%;gap:8px}
+  .contact-item b,.contact-item a,.contact-item span{text-align:center}
+  .social-row{justify-content:center;width:100%}
+
+  /* Footer Section Centering */
+  .footer-cta-card{text-align:center}
+  .footer-cta-content{display:flex;flex-direction:column;align-items:center;text-align:center;width:100%}
+  .footer-cta-badge{margin:0 auto 12px}
+  .footer-cta-title{text-align:center;margin:0 auto 8px;width:100%}
+  .footer-cta-sub{text-align:center;margin:0 auto;width:100%}
+  .footer-cta-form{width:100%;max-width:480px;margin:0 auto}
+  .footer-form-note{justify-content:center;text-align:center}
+  .footer-success-msg{justify-content:center;text-align:center}
+  .pillar-item{display:flex;flex-direction:column;align-items:center;text-align:center}
+  .pillar-item h4{text-align:center}
+  .pillar-item p{text-align:center}
+  .footer-col-brand{display:flex;flex-direction:column;align-items:center;text-align:center;width:100%}
+  .footer-col-brand .brand{justify-content:center}
+  .footer-col-brand .brand-desc{text-align:center;margin:0 auto 16px}
+  .footer-status-badge{margin:0 auto 20px}
+  .footer-social-section{display:flex;flex-direction:column;align-items:center;width:100%}
+  .footer-social-label{text-align:center}
+  .footer-socials{justify-content:center}
+  .footer-col{display:flex;flex-direction:column;align-items:center;text-align:center}
+  .footer-col-title{justify-content:center;text-align:center}
+  .footer-links{align-items:center;width:100%}
+  .footer-links li{text-align:center;width:100%}
+  .footer-links li a{justify-content:center}
+  .footer-bottom-bar{padding-right:0;flex-direction:column;align-items:center;text-align:center;gap:16px}
+  .footer-bottom-left,.footer-bottom-center,.footer-bottom-right{align-items:center;justify-content:center;text-align:center;width:100%}
+}
+
+@media(max-width:620px){
+  .hero-title,.hero h1{font-size:clamp(28px,8vw,42px);letter-spacing:-.035em}
+  .hero-art{height:340px}
+  .actions{flex-direction:column;width:100%;align-items:stretch}
+  .actions .btn{width:100%;justify-content:center}
+  .gear-showcase > .gear-card:last-child:nth-child(odd),
+  .gear-showcase > :last-child:nth-child(odd),
+  .grid3 > .card:last-child:nth-child(odd),
+  .grid3 > :last-child:nth-child(odd) {
+    grid-column: auto;
+    max-width: 100%;
+    margin-inline: 0;
+  }
+  .contact-card{padding:20px 14px}
+  .contact-grid,#contact form .grid{grid-template-columns:1fr!important;gap:12px;margin-bottom:12px}
+  .contact-submit,#contact form .btn{width:100%!important;justify-content:center!important;margin:16px 0 0!important}
+  .directory-card{min-height:255px}
+  .faq details summary{font-size:15px;gap:12px}
+  .faq details p{font-size:13.5px}
+  .visual-copy{padding:28px 16px 24px}
+  .visual-copy .btn{width:100%;justify-content:center}
+}
+</style>
+</head>
+<body>
+<div class="cursor-glow" id="glow"></div>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="Sonora home">
+    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <linearGradient id="navBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#121a2a"/>
+          <stop offset="60%" stop-color="#0b101b"/>
+          <stop offset="100%" stop-color="#05080f"/>
+        </linearGradient>
+        <linearGradient id="navBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#54e7ff"/>
+          <stop offset="35%" stop-color="#72b5ff"/>
+          <stop offset="70%" stop-color="#a855f7"/>
+          <stop offset="100%" stop-color="#ff6bb5"/>
+        </linearGradient>
+        <linearGradient id="navTopWave" x1="0%" y1="0%" x2="100%" y2="50%">
+          <stop offset="0%" stop-color="#54e7ff"/>
+          <stop offset="100%" stop-color="#38bdf8"/>
+        </linearGradient>
+        <linearGradient id="navBotWave" x1="0%" y1="50%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#c084fc"/>
+          <stop offset="100%" stop-color="#9333ea"/>
+        </linearGradient>
+        <radialGradient id="navCenterGlow" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#54e7ff" stop-opacity="0.32"/>
+          <stop offset="60%" stop-color="#9b7cff" stop-opacity="0.12"/>
+          <stop offset="100%" stop-color="#0b101b" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect x="2" y="2" width="44" height="44" rx="14" fill="url(#navBgGrad)"/>
+      <circle cx="24" cy="24" r="18" fill="url(#navCenterGlow)"/>
+      <rect x="2" y="2" width="44" height="44" rx="14" stroke="url(#navBorderGrad)" stroke-width="1.8"/>
+      <circle cx="24" cy="24" r="15" stroke="rgba(84,231,255,0.18)" stroke-width="1"/>
+      <path d="M14.5 20C14.5 14.8 18.5 11.5 24 11.5C29.8 11.5 33.5 14.8 33.5 19C33.5 22.8 29.8 24.8 24.5 25.8" stroke="url(#navTopWave)" stroke-width="3.2" stroke-linecap="round"/>
+      <path d="M33.5 28C33.5 33.2 29.5 36.5 24 36.5C18.2 36.5 14.5 33.2 14.5 29C14.5 25.2 18.2 23.2 23.5 22.2" stroke="url(#navBotWave)" stroke-width="3.2" stroke-linecap="round"/>
+      <line x1="24" y1="18.5" x2="24" y2="29.5" stroke="#b8ff65" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="24" cy="24" r="3.4" fill="#080c14" stroke="#b8ff65" stroke-width="1.8"/>
+      <circle cx="24" cy="24" r="1.3" fill="#ffffff"/>
+      <circle cx="8.5" cy="24" r="1.4" fill="#54e7ff" opacity="0.85"/>
+      <circle cx="39.5" cy="24" r="1.4" fill="#ff6bb5" opacity="0.85"/>
+    </svg>
+    <span>SONORA</span>
+  </a>
+  <nav class="navlinks" id="navlinks" aria-label="Primary navigation">
+    <a href="#gear">Gear</a>
+    <a href="#compare">Compare</a>
+    <a href="#guides">Guides</a>
+    <a href="#directory">Directory</a>
+    <a href="#warranty">Warranty</a>
+    <a class="navcta navcta-mobile" href="#contact">Find My Gear <span class="navcta-arrow">→</span></a>
+  </nav>
+  <div class="nav-actions">
+    <a class="navcta navcta-desktop" href="#contact">Find My Gear <span class="navcta-arrow">→</span></a>
+    <button class="menu" id="menu" aria-label="Toggle navigation">☰</button>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero wrap">
+  <div class="reveal">
+    <span class="eyebrow"><i class="dot"></i> Audio & Podcast Gear Guide</span>
+    <h1 class="hero-title"><span>Hear the difference.</span><span class="grad">Choose with confidence.</span></h1>
+    <p class="lead">A dedicated electronics portal for microphones, headphones, mixers and podcast essentials — built around 360° product views, real audio comparisons, noise-cancellation guidance and instant warranty support.</p>
+    <div class="actions"><a class="btn primary" href="#gear">Explore the gear →</a><a class="btn ghost" href="#compare">Compare audio specs</a></div>
+  </div>
+  <div class="hero-art reveal">
+    <div class="hero-card tilt"><img src="assets/hero_studio.jpg" alt="High-end professional podcast recording studio setup"></div>
+    <div class="orbit"><i></i><i></i><i></i></div>
+  </div>
+</section>
+
+<div class="marquee" aria-label="Audio categories running ticker">
+  <div class="marquee-track">
+    <div class="marquee-group">
+      <span><i></i> MICROPHONES</span>
+      <span><i></i> STUDIO HEADPHONES</span>
+      <span><i></i> AUDIO INTERFACES</span>
+      <span><i></i> BROADCAST MIXERS</span>
+      <span><i></i> REFERENCE MONITORS</span>
+      <span><i></i> ACOUSTIC GEAR</span>
+      <span><i></i> NOISE LAB</span>
+      <span><i></i> 2-YEAR WARRANTY</span>
+    </div>
+    <div class="marquee-group" aria-hidden="true">
+      <span><i></i> MICROPHONES</span>
+      <span><i></i> STUDIO HEADPHONES</span>
+      <span><i></i> AUDIO INTERFACES</span>
+      <span><i></i> BROADCAST MIXERS</span>
+      <span><i></i> REFERENCE MONITORS</span>
+      <span><i></i> ACOUSTIC GEAR</span>
+      <span><i></i> NOISE LAB</span>
+      <span><i></i> 2-YEAR WARRANTY</span>
+    </div>
+    <div class="marquee-group" aria-hidden="true">
+      <span><i></i> MICROPHONES</span>
+      <span><i></i> STUDIO HEADPHONES</span>
+      <span><i></i> AUDIO INTERFACES</span>
+      <span><i></i> BROADCAST MIXERS</span>
+      <span><i></i> REFERENCE MONITORS</span>
+      <span><i></i> ACOUSTIC GEAR</span>
+      <span><i></i> NOISE LAB</span>
+      <span><i></i> 2-YEAR WARRANTY</span>
+    </div>
+    <div class="marquee-group" aria-hidden="true">
+      <span><i></i> MICROPHONES</span>
+      <span><i></i> STUDIO HEADPHONES</span>
+      <span><i></i> AUDIO INTERFACES</span>
+      <span><i></i> BROADCAST MIXERS</span>
+      <span><i></i> REFERENCE MONITORS</span>
+      <span><i></i> ACOUSTIC GEAR</span>
+      <span><i></i> NOISE LAB</span>
+      <span><i></i> 2-YEAR WARRANTY</span>
+    </div>
+  </div>
+</div>
+
+<section class="section wrap" id="gear">
+  <div class="section-head reveal"><div><div class="kicker">01 / Gear intelligence</div><h2>Everything you need to build a better listening setup.</h2></div><p>Browse equipment by use case instead of getting lost in specification sheets.</p></div>
+  <div class="gear-showcase">
+    <article class="gear-card reveal">
+      <div class="gear-art">
+        <img src="assets/gear_mic.jpg" alt="Broadcast dynamic podcast microphone on boom arm">
+        <span>VOICE / CAPTURE</span>
+      </div>
+      <div class="gear-copy">
+        <div class="icon">MIC</div>
+        <h3>Podcast microphones</h3>
+        <p>Dynamic and condenser options for solo hosts, interviews, studios and streaming.</p>
+        <div class="meter"><i style="--w:92%"></i></div>
+        <div class="micro-meta"><span>Voice isolation</span><b>92%</b></div>
+        <a class="tag" href="#compare">Voice first →</a>
+      </div>
+    </article>
+    <article class="gear-card reveal">
+      <div class="gear-art">
+        <img src="assets/gear_headphones.jpg" alt="High-end studio reference monitoring headphones">
+        <span>MONITOR / LISTEN</span>
+      </div>
+      <div class="gear-copy">
+        <div class="icon">HQ</div>
+        <h3>Headphones</h3>
+        <p>Closed-back, open-back and monitoring picks with comfort, isolation and detail in focus.</p>
+        <div class="meter violet"><i style="--w:88%"></i></div>
+        <div class="micro-meta"><span>Isolation</span><b>88%</b></div>
+        <a class="tag" href="#viewer">Listen closer →</a>
+      </div>
+    </article>
+    <article class="gear-card reveal">
+      <div class="gear-art">
+        <img src="assets/gear_interface.jpg" alt="Flagship audio production interface and mixer console">
+        <span>ROUTING / CONTROL</span>
+      </div>
+      <div class="gear-copy">
+        <div class="icon">I/O</div>
+        <h3>Interfaces & mixers</h3>
+        <p>Compare inputs, preamps, gain control, routing and connectivity before you buy.</p>
+        <div class="meter lime"><i style="--w:96%"></i></div>
+        <div class="micro-meta"><span>Connectivity</span><b>96%</b></div>
+        <a class="tag" href="#contact">Connect more →</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section wrap tight">
+  <div class="visual studio-visual reveal">
+    <img src="assets/hero_studio.jpg" alt="Modern podcast studio">
+    <div class="scanline"></div><div class="visual-orbit"><i></i><i></i></div>
+    <div class="visual-copy"><div class="kicker">02 / Studio reality</div><h3>Gear should make recording feel effortless.</h3><p>SONORA turns technical audio information into practical buying guidance for creators, studios and everyday listeners.</p><div class="mini-pills"><span>LOW NOISE</span><span>FAST SETUP</span><span>CLEAR VOICE</span></div></div>
+  </div>
+</section>
+
+<section class="section wrap" id="signal">
+  <div class="section-head reveal"><div><div class="kicker">03 / Signal Lab</div><h2>See sound behaving in real time.</h2></div><p>One of four signature animated experiences: a living audio spectrum that reacts continuously to the page.</p></div>
+  <div class="wavebox reveal"><div class="signal-ring"></div><div class="signal-dot"></div>
+    <span class="wave-label">LIVE FREQUENCY MAP / 20Hz — 20kHz</span>
+    <div class="wave"><i style="animation-delay:-0.0s"></i><i style="animation-delay:-0.058823529411764705s"></i><i style="animation-delay:-0.11764705882352941s"></i><i style="animation-delay:-0.17647058823529413s"></i><i style="animation-delay:-0.23529411764705882s"></i><i style="animation-delay:-0.29411764705882354s"></i><i style="animation-delay:-0.35294117647058826s"></i><i style="animation-delay:-0.4117647058823529s"></i><i style="animation-delay:-0.47058823529411764s"></i><i style="animation-delay:-0.5294117647058824s"></i><i style="animation-delay:-0.5882352941176471s"></i><i style="animation-delay:-0.6470588235294118s"></i><i style="animation-delay:-0.7058823529411765s"></i><i style="animation-delay:-0.7647058823529411s"></i><i style="animation-delay:-0.8235294117647058s"></i><i style="animation-delay:-0.8823529411764706s"></i><i style="animation-delay:-0.9411764705882353s"></i><i style="animation-delay:-0.0s"></i><i style="animation-delay:-0.058823529411764705s"></i><i style="animation-delay:-0.11764705882352941s"></i><i style="animation-delay:-0.17647058823529413s"></i><i style="animation-delay:-0.23529411764705882s"></i><i style="animation-delay:-0.29411764705882354s"></i><i style="animation-delay:-0.35294117647058826s"></i><i style="animation-delay:-0.4117647058823529s"></i><i style="animation-delay:-0.47058823529411764s"></i><i style="animation-delay:-0.5294117647058824s"></i><i style="animation-delay:-0.5882352941176471s"></i><i style="animation-delay:-0.6470588235294118s"></i><i style="animation-delay:-0.7058823529411765s"></i><i style="animation-delay:-0.7647058823529411s"></i><i style="animation-delay:-0.8235294117647058s"></i><i style="animation-delay:-0.8823529411764706s"></i><i style="animation-delay:-0.9411764705882353s"></i><i style="animation-delay:-0.0s"></i><i style="animation-delay:-0.058823529411764705s"></i><i style="animation-delay:-0.11764705882352941s"></i><i style="animation-delay:-0.17647058823529413s"></i><i style="animation-delay:-0.23529411764705882s"></i><i style="animation-delay:-0.29411764705882354s"></i><i style="animation-delay:-0.35294117647058826s"></i><i style="animation-delay:-0.4117647058823529s"></i><i style="animation-delay:-0.47058823529411764s"></i><i style="animation-delay:-0.5294117647058824s"></i><i style="animation-delay:-0.5882352941176471s"></i><i style="animation-delay:-0.6470588235294118s"></i><i style="animation-delay:-0.7058823529411765s"></i><i style="animation-delay:-0.7647058823529411s"></i><i style="animation-delay:-0.8235294117647058s"></i><i style="animation-delay:-0.8823529411764706s"></i><i style="animation-delay:-0.9411764705882353s"></i><i style="animation-delay:-0.0s"></i><i style="animation-delay:-0.058823529411764705s"></i><i style="animation-delay:-0.11764705882352941s"></i><i style="animation-delay:-0.17647058823529413s"></i><i style="animation-delay:-0.23529411764705882s"></i><i style="animation-delay:-0.29411764705882354s"></i><i style="animation-delay:-0.35294117647058826s"></i></div>
+    <div class="wave-meta"><span>LOW / 20–250Hz</span><span>MID / 250Hz–4kHz</span><span>HIGH / 4–20kHz</span></div>
+  </div>
+</section>
+
+<section class="section wrap" id="featured">
+  <div class="section-head reveal"><div><div class="kicker">04 / Featured hardware</div><h2>Products presented like products — not spreadsheets.</h2></div><p>High-quality imagery, quick specs and clear reasons to consider each category.</p></div>
+  <div class="grid grid3">
+    <article class="card cards-img reveal"><img src="assets/gear_condenser.jpg" alt="Professional large-diaphragm condenser podcast microphone"><div class="inner"><span class="tag">Creator pick</span><h3>Studio Voice Mic</h3><div class="stars">★★★★★</div><div class="price">$249</div><p>Warm voice capture, controlled proximity and studio-ready monitoring.</p></div></article>
+    <article class="card cards-img reveal"><img src="assets/gear_interface.jpg" alt="Flagship podcast studio production mixer console"><div class="inner"><span class="tag">Desk setup</span><h3>Creator Interface</h3><div class="stars">★★★★★</div><div class="price">$329</div><p>Flexible I/O for a clean two-person or multi-source podcast workflow.</p></div></article>
+    <article class="card cards-img reveal"><img src="assets/gear_monitors.jpg" alt="Active studio reference audio monitors"><div class="inner"><span class="tag">Studio essential</span><h3>Monitor Station</h3><div class="stars">★★★★☆</div><div class="price">$189</div><p>Practical monitoring with fast controls and a focused desktop footprint.</p></div></article>
+  </div>
+</section>
+
+<section class="section wrap" id="compare">
+  <div class="section-head reveal"><div><div class="kicker">05 / Spec comparison</div><h2>Compare what actually changes the sound.</h2></div><p>Translate technical specifications into practical decisions.</p></div>
+  <div class="compare reveal">
+    <div class="col"><h3>Dynamic Mic</h3><div class="bar"><label>Voice isolation <span>92%</span></label><em><i style="--w:92%"></i></em></div><div class="bar"><label>Room rejection <span>94%</span></label><em><i style="--w:94%"></i></em></div><div class="bar"><label>Detail <span>78%</span></label><em><i style="--w:78%"></i></em></div><div class="bar"><label>Best for untreated rooms <span>96%</span></label><em><i style="--w:96%"></i></em></div></div>
+    <div class="col"><h3>Condenser Mic</h3><div class="bar"><label>Voice isolation <span>72%</span></label><em><i style="--w:72%"></i></em></div><div class="bar"><label>Room rejection <span>60%</span></label><em><i style="--w:60%"></i></em></div><div class="bar"><label>Detail <span>96%</span></label><em><i style="--w:96%"></i></em></div><div class="bar"><label>Best for treated rooms <span>94%</span></label><em><i style="--w:94%"></i></em></div></div>
+  </div>
+</section>
+
+<section class="section wrap" id="viewer">
+  <div class="section-head reveal"><div><div class="kicker">06 / 360° product lab</div><h2>Rotate the idea before you buy the hardware.</h2></div><p>Signature interactive showcase: flagship studio dynamic microphone with holographic orbital telemetry and active specifications.</p></div>
+  <div class="product3d reveal">
+    <img class="product3d-img" src="assets/product_360.jpg" alt="360-degree floating broadcast microphone in acoustic laboratory" loading="lazy">
+    <div class="specs">
+      <div class="spec"><b>48V</b><span>Phantom power</span></div>
+      <div class="spec"><b>USB-C</b><span>Fast connection</span></div>
+      <div class="spec"><b>24-bit</b><span>High-resolution audio</span></div>
+      <div class="spec"><b>120°</b><span>Pickup focus</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" id="guides">
+  <div class="section-head reveal"><div><div class="kicker">07 / Buyer guides</div><h2>Start with your recording situation.</h2></div><p>Useful paths for creators who don't want to decode audio engineering jargon.</p></div>
+  <div class="grid grid4">
+    <article class="card reveal"><div class="icon">01</div><h3>Solo podcast</h3><p>Simple one-person setup with reliable voice capture.</p></article>
+    <article class="card reveal"><div class="icon">02</div><h3>Two hosts</h3><p>Two-channel routing, monitoring and desk placement.</p></article>
+    <article class="card reveal"><div class="icon">03</div><h3>Video creator</h3><p>Clear speech for cameras, streams and short-form content.</p></article>
+    <article class="card reveal"><div class="icon">04</div><h3>Pro studio</h3><p>Expandable monitoring, interfaces and production workflow.</p></article>
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="visual reveal">
+    <img src="assets/noise_lab.jpg" alt="Audio engineer in acoustic noise laboratory">
+    <div class="visual-copy"><div class="kicker">08 / Noise-cancellation guide</div><h3>Silence the room. Keep the story.</h3><p>Understand passive isolation, active noise cancellation, microphone rejection and when each approach makes sense.</p><a class="btn primary" href="#faq">Read the guide</a></div>
+  </div>
+</section>
+
+<section class="section wrap" id="directory">
+  <div class="section-head reveal"><div><div class="kicker">09 / Directory</div><h2>Find the gear around your workflow.</h2></div><p>Browse by equipment family, creator type and studio requirement.</p></div>
+  <div class="grid grid3">
+    <article class="directory-card card reveal"><div class="dir-top"><span class="dir-index">01</span><div class="icon">M</div></div><div class="dir-copy"><h3>Microphone makers</h3><p>Dynamic, condenser, USB and broadcast microphone categories.</p></div><a class="dir-link" href="#gear">Explore brands <span>↗</span></a></article>
+    <article class="directory-card card reveal"><div class="dir-top"><span class="dir-index">02</span><div class="icon">H</div></div><div class="dir-copy"><h3>Headphone brands</h3><p>Monitoring, closed-back, wireless and travel-focused categories.</p></div><a class="dir-link" href="#featured">Explore brands <span>↗</span></a></article>
+    <article class="directory-card card reveal"><div class="dir-top"><span class="dir-index">03</span><div class="icon">S</div></div><div class="dir-copy"><h3>Studio suppliers</h3><p>Interfaces, mixers, monitors, cables, stands and accessories.</p></div><a class="dir-link" href="#warranty">Explore suppliers <span>↗</span></a></article>
+  </div>
+</section>
+
+<section class="section wrap" id="motion">
+  <div class="section-head reveal"><div><div class="kicker">10 / Spatial audio index</div><h2>Turn specifications into a visual language.</h2></div><p>Signature animation three: a rotating spatial cube that cycles through the core buying signals.</p></div>
+  <div class="ticker3d reveal"><div class="cube"><div class="face f1">CLARITY</div><div class="face f2">COMFORT</div><div class="face f3">ISOLATION</div><div class="face f4">LATENCY</div><div class="face f5">DETAIL</div><div class="face f6">VALUE</div></div></div>
+</section>
+
+<section class="section wrap">
+  <div class="section-head reveal"><div><div class="kicker">11 / Setup blueprint</div><h2>A clean signal chain starts with the right order.</h2></div><p>Four steps from voice to finished episode.</p></div>
+  <div class="grid grid4">
+    <article class="card reveal"><div class="icon">01</div><h3>Capture</h3><p>Choose the microphone around your room and voice.</p></article>
+    <article class="card reveal"><div class="icon">02</div><h3>Control</h3><p>Set gain, monitoring and routing without noise surprises.</p></article>
+    <article class="card reveal"><div class="icon">03</div><h3>Shape</h3><p>Use EQ, compression and cleanup only where needed.</p></article>
+    <article class="card reveal"><div class="icon">04</div><h3>Publish</h3><p>Export consistent audio for every platform.</p></article>
+  </div>
+</section>
+
+<section class="section wrap" id="warranty">
+  <div class="visual reveal">
+    <img src="assets/warranty.jpg" alt="Official audio equipment warranty authentication certificate">
+    <div class="visual-copy"><div class="kicker">12 / Warranty center</div><h3>Register once. Find support faster.</h3><p>Keep serial information, purchase details and warranty status organized for your audio equipment.</p><a class="btn primary" href="#contact">Register equipment</a></div>
+  </div>
+</section>
+
+<section class="section wrap" id="faq">
+  <div class="section-head reveal"><div><div class="kicker">13 / Answers</div><h2>Questions creators ask before checkout.</h2></div><p>Short, practical answers without the marketing fog.</p></div>
+  <div class="faq reveal">
+    <details open><summary>Should I choose dynamic or condenser?</summary><p>Dynamic microphones are often easier in untreated rooms because they can reject more ambient sound. Condensers can capture more detail when the recording space is controlled.</p></details>
+    <details><summary>What should I compare besides frequency response?</summary><p>Consider polar pattern, self-noise, sensitivity, preamp requirements, connectivity, monitoring, room conditions and how you actually record.</p></details>
+    <details><summary>Why does noise cancellation matter?</summary><p>For headphones, ANC can reduce continuous external noise. For microphones, room rejection and placement matter more directly to recorded speech.</p></details>
+  </div>
+</section>
+
+<section class="section wrap" id="contact">
+  <div class="section-head reveal"><div><div class="kicker">14 / Find your setup</div><h2>Tell SONORA what you record. We'll point you toward the right gear.</h2></div><p>Use the demo form to start a guided equipment search.</p></div>
+  <div class="card reveal contact-card">
+    <form class="contact-form" onsubmit="event.preventDefault();this.querySelector('button').textContent='Request received ✓'">
+      <div class="contact-grid">
+        <input required placeholder="Your name" class="contact-input" aria-label="Your name">
+        <input required type="email" placeholder="Email address" class="contact-input" aria-label="Email address">
+      </div>
+      <textarea required placeholder="What are you recording? Podcast, streaming, interviews, music..." class="contact-input contact-textarea" aria-label="Recording details"></textarea>
+      <button class="btn primary contact-submit" type="submit">Find my gear →</button>
+    </form>
+  </div>
+  <div class="contact-strip reveal">
+    <div class="contact-info">
+      <div class="contact-item"><span class="contact-icon">✦</span><div><b>Email</b><a href="mailto:hello@sonora.example">hello@sonora.example</a></div></div>
+      <div class="contact-item"><span class="contact-icon">☎</span><div><b>Phone</b><a href="tel:+18005550198">+1 (800) 555-0198</a></div></div>
+      <div class="contact-item"><span class="contact-icon">⌖</span><div><b>Address</b><span>24 Audio Avenue, Hyderabad, Telangana</span></div></div>
+      <div class="social-row"><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="X">𝕏</a><a href="#" aria-label="LinkedIn">in</a></div>
+    </div>
+    <div class="map-wrap"><div class="map-label">SONORA / STUDIO DIRECTORY</div><iframe title="SONORA location map" src="https://www.openstreetmap.org/export/embed.html?bbox=78.40%2C17.38%2C78.52%2C17.47&layer=mapnik&marker=17.44%2C78.45" loading="lazy"></iframe></div>
+  </div>
+</section>
+</main>
+
+<footer class="footer" id="portal-footer">
+  <div class="footer-ambient-glow" aria-hidden="true"></div>
+
+  <div class="wrap">
+    <!-- 1. Top Newsletter / Studio Dispatch Card -->
+    <div class="footer-cta-card reveal">
+      <div class="footer-cta-content">
+        <div class="footer-cta-badge">
+          <span class="live-pulse"></span>
+          <span>Studio Dispatch &bull; Issue #48</span>
+        </div>
+        <h3 class="footer-cta-title">Weekly blind mic shootouts, lab curves &amp; price-drop radar.</h3>
+        <p class="footer-cta-sub">Join 24,000+ podcasters, voice actors, and audio engineers. Pure acoustic signal &bull; zero sponsored bias.</p>
+      </div>
+      <form class="footer-cta-form" id="footerNewsletterForm" onsubmit="handleFooterNewsletter(event)">
+        <div class="footer-input-wrap">
+          <svg class="footer-mail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          <input type="email" id="footerEmailInput" placeholder="Enter your studio email address..." required aria-label="Studio email address" autocomplete="email" />
+          <button type="submit" class="footer-submit-btn" id="footerNewsletterBtn">
+            <span>Subscribe</span>
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M4 10h12M11 5l5 5-5 5"/>
+            </svg>
+          </button>
+        </div>
+        <div class="footer-form-note">
+          <span class="note-check">&#10003; Free weekly teardowns</span>
+          <span class="note-sep">&bull;</span>
+          <span class="note-check">&#10003; 1-click unsubscribe</span>
+          <span class="note-sep">&bull;</span>
+          <span class="note-check">&#10003; No spam ever</span>
+        </div>
+        <div class="footer-success-msg" id="footerSuccessMsg" role="alert">
+          <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+          <span>Welcome aboard! Check your inbox for Sonora's 2026 Reference Studio Guide.</span>
+        </div>
+      </form>
+    </div>
+
+    <!-- 2. Value Pillars Strip -->
+    <div class="footer-pillars reveal">
+      <div class="pillar-item">
+        <div class="pillar-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
+        </div>
+        <div>
+          <h4>Acoustic Lab Tests</h4>
+          <p>Calibrated measurements in treated sound chambers</p>
+        </div>
+      </div>
+      <div class="pillar-item">
+        <div class="pillar-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+        </div>
+        <div>
+          <h4>Lossless A/B Audio</h4>
+          <p>Uncompressed 24-bit/96kHz mic shootout samples</p>
+        </div>
+      </div>
+      <div class="pillar-item">
+        <div class="pillar-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div>
+          <h4>Verified Directory</h4>
+          <p>Direct manufacturer warranties &amp; serial checks</p>
+        </div>
+      </div>
+      <div class="pillar-item">
+        <div class="pillar-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <div>
+          <h4>Zero Paid Bias</h4>
+          <p>100% independent editorial &amp; open laboratory data</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Multi-Column Sitemap Grid -->
+    <div class="footer-grid">
+      <!-- Column 1: Brand Info & Socials -->
+      <div class="footer-col-brand">
+        <a class="brand footer-brand" href="#top" aria-label="Sonora home">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="footBgGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#121a2a"/><stop offset="60%" stop-color="#0b101b"/><stop offset="100%" stop-color="#05080f"/></linearGradient><linearGradient id="footBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#54e7ff"/><stop offset="35%" stop-color="#72b5ff"/><stop offset="70%" stop-color="#a855f7"/><stop offset="100%" stop-color="#ff6bb5"/></linearGradient><linearGradient id="footTopWave" x1="0%" y1="0%" x2="100%" y2="50%"><stop offset="0%" stop-color="#54e7ff"/><stop offset="100%" stop-color="#38bdf8"/></linearGradient><linearGradient id="footBotWave" x1="0%" y1="50%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c084fc"/><stop offset="100%" stop-color="#9333ea"/></linearGradient><radialGradient id="footCenterGlow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#54e7ff" stop-opacity="0.32"/><stop offset="60%" stop-color="#9b7cff" stop-opacity="0.12"/><stop offset="100%" stop-color="#0b101b" stop-opacity="0"/></radialGradient></defs><rect x="2" y="2" width="44" height="44" rx="14" fill="url(#footBgGrad)"/><circle cx="24" cy="24" r="18" fill="url(#footCenterGlow)"/><rect x="2" y="2" width="44" height="44" rx="14" stroke="url(#footBorderGrad)" stroke-width="1.8"/><circle cx="24" cy="24" r="15" stroke="rgba(84,231,255,0.18)" stroke-width="1"/><path d="M14.5 20C14.5 14.8 18.5 11.5 24 11.5C29.8 11.5 33.5 14.8 33.5 19C33.5 22.8 29.8 24.8 24.5 25.8" stroke="url(#footTopWave)" stroke-width="3.2" stroke-linecap="round"/><path d="M33.5 28C33.5 33.2 29.5 36.5 24 36.5C18.2 36.5 14.5 33.2 14.5 29C14.5 25.2 18.2 23.2 23.5 22.2" stroke="url(#footBotWave)" stroke-width="3.2" stroke-linecap="round"/><line x1="24" y1="18.5" x2="24" y2="29.5" stroke="#b8ff65" stroke-width="2.4" stroke-linecap="round"/><circle cx="24" cy="24" r="3.4" fill="#080c14" stroke="#b8ff65" stroke-width="1.8"/><circle cx="24" cy="24" r="1.3" fill="#ffffff"/><circle cx="8.5" cy="24" r="1.4" fill="#54e7ff" opacity="0.85"/><circle cx="39.5" cy="24" r="1.4" fill="#ff6bb5" opacity="0.85"/></svg>
+          SONORA
+        </a>
+        <p class="brand-desc">
+          Audio Podcast Gear Guide &amp; Directory Portal &mdash; designed to make broadcast purchasing decisions clear, visual, and acoustically validated.
+        </p>
+        <div class="footer-status-badge">
+          <span class="status-indicator"></span>
+          <span>Audio Engine v2.4 &bull; All Nodes Active</span>
+        </div>
+        <div class="footer-social-section">
+          <span class="footer-social-label">Audio Community &amp; Data:</span>
+          <div class="footer-socials">
+            <a href="#" class="social-btn" aria-label="YouTube Channel" title="YouTube Teardowns">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="Spotify Podcast" title="Spotify Audio Samples">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.503 17.308c-.217.356-.677.469-1.033.252-2.83-1.73-6.393-2.12-10.591-1.161-.408.093-.815-.164-.908-.572-.093-.408.164-.814.572-.907 4.593-1.05 8.528-.609 11.708 1.348.356.217.469.677.252 1.04zm1.47-3.268c-.274.444-.857.587-1.301.313-3.24-1.993-8.178-2.569-12.01-1.405-.499.151-1.026-.134-1.177-.633-.151-.499.134-1.026.633-1.177 4.383-1.33 9.824-.69 13.542 1.599.444.274.587.857.313 1.302zm.126-3.41c-3.886-2.308-10.297-2.52-14.01-1.393-.596.181-1.229-.16-1.41-.756-.181-.596.16-1.229.756-1.41 4.269-1.296 11.353-1.052 15.808 1.593.538.319.715 1.018.396 1.556-.319.538-1.018.715-1.556.396z"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="Discord Community" title="Discord Creator Guild">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="X Updates" title="X Broadcast News">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="GitHub Data" title="Open Acoustic Datasets">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Column 2: Gear Categories -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Gear Categories</h4>
+        <ul class="footer-links">
+          <li><a href="#gear">Broadcast Microphones <span class="badge-mini badge-accent">Dynamic</span></a></li>
+          <li><a href="#gear">Studio Condenser Mics</a></li>
+          <li><a href="#gear">Audio Interfaces &amp; USB-C</a></li>
+          <li><a href="#gear">Reference Headphones &amp; IEMs</a></li>
+          <li><a href="#gear">Booms &amp; Shockmounts</a></li>
+          <li><a href="#product3d">360&deg; Teardown Lab <span class="badge-mini badge-lime">3D</span></a></li>
+          <li><a href="#compare">A/B Waveform Engine <span class="badge-mini badge-cyan">Lossless</span></a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Guides & Calculators -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Guides &amp; Lab</h4>
+        <ul class="footer-links">
+          <li><a href="#guides">2026 Podcast Setup Guide</a></li>
+          <li><a href="#guides">Gain &amp; Preamp dB Calculator</a></li>
+          <li><a href="#specs">Noise Floor &amp; Echo Lab</a></li>
+          <li><a href="#compare">Cardioid vs Omni Patterns</a></li>
+          <li><a href="#guides">Multi-Host XLR Routing</a></li>
+          <li><a href="#specs">Room Mode Diagnostics</a></li>
+          <li><a href="#contact">Custom Gear Matchmaker</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Directory & Support -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Directory Portal</h4>
+        <ul class="footer-links">
+          <li><a href="#directory">Verified Brand Catalog</a></li>
+          <li><a href="#warranty">Warranty Claims Portal</a></li>
+          <li><a href="#faq">Engineering FAQ &amp; Help</a></li>
+          <li><a href="#contact">Submit Gear for Benchmark</a></li>
+          <li><a href="mailto:hello@sonora.example">Studio Consultation</a></li>
+          <li><a href="mailto:press@sonora.example">Press &amp; Media Kit</a></li>
+          <li><a href="#contact">Hyderabad Lab Location</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 5: Standards & Legal -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Trust &amp; Legal</h4>
+        <ul class="footer-links">
+          <li><a href="#contact">Editorial Independence Policy</a></li>
+          <li><a href="#contact">Affiliate Transparency Notice</a></li>
+          <li><a href="#specs">Acoustic Testing Methodology</a></li>
+          <li><a href="#contact">Privacy Policy &amp; GDPR</a></li>
+          <li><a href="#contact">Terms of Platform Access</a></li>
+          <li><a href="#contact">Cookie Preferences</a></li>
+          <li><a href="#contact">Acoustic API &amp; Datasets</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 4. Bottom Colophon Bar -->
+    <div class="footer-bottom-bar">
+      <div class="footer-bottom-left">
+        <span class="copyright">&copy; 2026 SONORA Labs, Inc. All rights reserved.</span>
+        <span class="mission-tagline">Engineered for broadcast acoustics &bull; Independent sound research.</span>
+      </div>
+
+      <div class="footer-bottom-center">
+        <a href="#contact">Privacy Policy</a>
+        <span class="foot-sep">&bull;</span>
+        <a href="#contact">Terms of Service</a>
+        <span class="foot-sep">&bull;</span>
+        <a href="#contact">Affiliate Disclosure</a>
+        <span class="foot-sep">&bull;</span>
+        <a href="#contact">Security</a>
+        <span class="foot-sep">&bull;</span>
+        <a href="#contact">Cookie Settings</a>
+      </div>
+
+      <div class="footer-bottom-right">
+        <div class="footer-locale-pill">
+          <span>&#127760;</span>
+          <span>Global (EN)</span>
+          <span style="opacity:.4">&bull;</span>
+          <span>24-bit / 96kHz</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scrollTop" aria-label="Scroll to top" title="Scroll to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M12 19V5M5 12l7-7 7 7"/>
+  </svg>
+</button>
+
+<script>
+const nav=document.getElementById('nav'),menu=document.getElementById('menu');
+menu.addEventListener('click',()=>nav.classList.toggle('open'));
+document.querySelectorAll('.navlinks a, .nav-actions a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');obs.unobserve(e.target)}}),{threshold:.1});
+document.querySelectorAll('.reveal').forEach(x=>obs.observe(x));
+const glow=document.getElementById('glow');
+window.addEventListener('pointermove',e=>{glow.style.left=e.clientX+'px';glow.style.top=e.clientY+'px'});
+document.querySelectorAll('.tilt').forEach(el=>{
+  el.addEventListener('pointermove',e=>{
+    const r=el.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+    el.style.transform=`rotateY(${-7+x*10}deg) rotateX(${4-y*8}deg)`;
+  });
+  el.addEventListener('pointerleave',()=>el.style.transform='rotateY(-7deg) rotateX(4deg)');
+});
+
+// Active section highlight (ScrollSpy)
+const navLinks = document.querySelectorAll('.navlinks a[href^="#"]:not(.navcta-mobile)');
+const trackedSections = Array.from(navLinks).map(a => {
+  const target = document.getElementById(a.getAttribute('href').slice(1));
+  return target ? { link: a, section: target } : null;
+}).filter(Boolean);
+
+function updateActiveNav() {
+  const scrollY = window.pageYOffset || document.documentElement.scrollTop;
+  let currentActive = null;
+  for (let i = trackedSections.length - 1; i >= 0; i--) {
+    const { section, link } = trackedSections[i];
+    const top = section.offsetTop - 200;
+    if (scrollY >= top) {
+      currentActive = link;
+      break;
+    }
+  }
+  navLinks.forEach(link => link.classList.toggle('active', link === currentActive));
+}
+window.addEventListener('scroll', updateActiveNav, { passive: true });
+window.addEventListener('DOMContentLoaded', updateActiveNav);
+updateActiveNav();
+
+// Scroll to top button & footer back-to-top
+const scrollTopBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', () => {
+  const scrollY = window.pageYOffset || document.documentElement.scrollTop;
+  scrollTopBtn.classList.toggle('visible', scrollY > 320);
+}, { passive: true });
+
+scrollTopBtn.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+
+// Footer Newsletter interactive submission
+function handleFooterNewsletter(e) {
+  e.preventDefault();
+  const input = document.getElementById('footerEmailInput');
+  const btn = document.getElementById('footerNewsletterBtn');
+  const successMsg = document.getElementById('footerSuccessMsg');
+  if (input && input.value) {
+    const originalContent = btn.innerHTML;
+    btn.disabled = true;
+    btn.innerHTML = '<span>Subscribed ✓</span>';
+    btn.style.background = 'linear-gradient(110deg, var(--lime), #c8ff85)';
+    btn.style.color = '#061017';
+    if (successMsg) successMsg.style.display = 'flex';
+    input.value = '';
+    setTimeout(() => {
+      btn.disabled = false;
+      btn.innerHTML = originalContent;
+      btn.style.background = '';
+      btn.style.color = '';
+    }, 4500);
+  }
+}
+
+// Robust continuous 60fps marquee runner (guaranteed across all browsers & OS settings)
+const marqueeContainer = document.querySelector('.marquee');
+const marqueeTrack = document.querySelector('.marquee-track');
+if (marqueeContainer && marqueeTrack) {
+  let marqueePos = 0;
+  let isHovered = false;
+  
+  marqueeContainer.addEventListener('mouseenter', () => isHovered = true);
+  marqueeContainer.addEventListener('mouseleave', () => isHovered = false);
+  marqueeContainer.addEventListener('touchstart', () => isHovered = true, { passive: true });
+  marqueeContainer.addEventListener('touchend', () => isHovered = false, { passive: true });
+
+  let lastTimestamp = null;
+  const speedPixelsPerSec = 45; // Smooth broadcast gliding speed
+
+  function animateMarquee(timestamp) {
+    if (!lastTimestamp) lastTimestamp = timestamp;
+    const delta = (timestamp - lastTimestamp) / 1000;
+    lastTimestamp = timestamp;
+
+    if (!isHovered) {
+      const firstGroup = marqueeTrack.children[0];
+      const singleGroupWidth = firstGroup ? firstGroup.offsetWidth : 0;
+      
+      marqueePos += speedPixelsPerSec * Math.min(delta, 0.1);
+      if (singleGroupWidth > 0 && marqueePos >= singleGroupWidth) {
+        marqueePos %= singleGroupWidth;
+      }
+      marqueeTrack.style.transform = `translate3d(${-marqueePos}px, 0, 0)`;
+    }
+    requestAnimationFrame(animateMarquee);
+  }
+  requestAnimationFrame(animateMarquee);
+}
+</script>
+</body>
+</html>
